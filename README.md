@@ -1,6 +1,6 @@
 # Simple weather app written by ChatGPT
 
-![image](https://user-images.githubusercontent.com/105635627/224553676-6a93bac1-f59f-451a-ba4c-559c5acb0ab8.png)
+![image](https://user-images.githubusercontent.com/105635627/224566148-cb14b01e-20b4-46aa-a0a5-6e3f4df1908f.png)
 
 
 ### Simple GUI weather app for Windows/Linux written by ChatGPT (AI)
