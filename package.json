@@ -1,0 +1,12 @@
+{
+    "name": "weather-app-by-chatgpt",
+    "version": "1.0.0",
+    "description": "Weather app written by ChatGPT",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^23.1.3"
+    }
+}
