@@ -31,7 +31,7 @@ searchButton.addEventListener('click', () => {
       })
       .catch(error => {
         console.error(error);
-        weatherInfo.innerHTML = '<p>An error occurred while retrieving the weather information. Please try again later.</p>';
+        weatherInfo.innerHTML = "<p>⚠️ The city in which you are trying to find out the weather does not exist. You're not an alien, are you?</p>";
         weatherInfo.style.display = 'block';
       });
   }
