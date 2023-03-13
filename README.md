@@ -1,4 +1,4 @@
-# Simple weather app written by ChatGPT
+# GPTWeather -  Simple weather app written by ChatGPT
 
 ![image](https://user-images.githubusercontent.com/105635627/224566148-cb14b01e-20b4-46aa-a0a5-6e3f4df1908f.png)
 
