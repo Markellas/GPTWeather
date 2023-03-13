@@ -7,4 +7,5 @@
 
 Written using JavaScript, HTML and CSS. Weather info is provided by OpenWeather.
 
-## ⚠️  The app is under development! Keep that in mind!
+
+⚠️  The app is under development! Keep that in mind!
