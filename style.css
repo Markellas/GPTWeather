@@ -1,62 +1,111 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+html, body {
+  overflow: hidden;
+}
+
 body {
-  background-color: #1b1b1b;
-  color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-image 0.5s;
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-  flex: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
 }
 
 h1 {
-  margin-bottom: 20px;
-  font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 
 .input {
-  background-color: #fff;
-  color: #363636;
-  font-size: 1.5rem;
-  border: none;
+    background-color: #fff;
+    color: #363636;
+    font-size: 1.5rem;
+    border: none;
 }
 
 .button {
-  font-size: 1.5rem;
-  color: #fff;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 .weather-info {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .dark-box {
-  background-color: #1b1b1b;
-  padding: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: #1b1b1b;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .weather-icon {
-  font-size: 5rem;
-  margin-bottom: 30px;
+    font-size: 5rem;
+    margin-bottom: 30px;
 }
 
 .weather-temp {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .weather-city {
-  font-size: 2rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .weather-desc {
-  font-size: 1.5
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.weather-humidity,
+.weather-wind {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.forecast-item {
+    flex-basis: 19%;
+    background-color: #1b1b1b;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.forecast-day {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.forecast-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.forecast-temp {
+    font-size: 1.5rem;
+    color: #fff;
 }
